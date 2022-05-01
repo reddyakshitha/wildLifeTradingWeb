@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  padding-top: 5px;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 .App-logo {
