@@ -6,7 +6,7 @@ import Animal3 from '../images/3.jpg';
 import Animal4 from '../images/4.jpg';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './body.css'
-
+//corousal for the images displayed in the home page
 class CarouselComponent extends Component {
 
   render() {

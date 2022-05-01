@@ -1,3 +1,4 @@
+//importing dependencies and pictures
 import React, {Component} from 'react';
 import aboutImage from '../images/6.jpg';
 import './aboutbody.css'
@@ -5,9 +6,10 @@ import './aboutbody.css'
 class AboutBody extends Component {
 
   render() {
-    
+    //renders the content and images
     return (
       <div className="body-container about-container">
+      {/* Adding a back button */}
         <div className="backToHome">
           <button className="tab-button backToHomeButton"><a href="/">Back to Home</a></button>
         </div>
@@ -15,6 +17,7 @@ class AboutBody extends Component {
         <div className="about-image">
           <img src={aboutImage} />
         </div>
+         {/* The content to be displayed*/}
         <div className="about-text">
           Wildlife trading is a major issue that has a direct impact on the animals involved as well as an indirect
           impact on biodiversity, endangered species and environmental issues. We are using a wildlife trade

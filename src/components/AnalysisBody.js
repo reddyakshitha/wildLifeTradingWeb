@@ -1,3 +1,4 @@
+//importing dependencies and pictures
 import React, {Component} from 'react';
 import Screenshot1 from '../screenshots/Screenshot1.png';
 import Screenshot2 from '../screenshots/Screenshot2.png';
@@ -5,11 +6,11 @@ import Screenshot3 from '../screenshots/Screenshot3.png';
 import Screenshot4 from '../screenshots/Screenshot4.png';
 import Screenshot5 from '../screenshots/Screenshot5.png';
 import './analysisbody.css'
-
+//analysis page content
 class AnalysisBody extends Component {
 
   render() {
-    
+    //renders visualization
     return (
       <div className="body-container analysis-container">
         <div className="backToHome">
